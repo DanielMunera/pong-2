@@ -1,3 +1,4 @@
+@@ -1,30 +0,0 @@
 //clamp min/max function
 export function clamp(num, min, max) {
   return num <= min ? min : num >= max ? max : num;
