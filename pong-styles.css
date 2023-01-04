@@ -14,7 +14,7 @@ body {
   border: 5px solid black;
   left: 0;
   position: absolute;
-  background-image: -url"(https://64.media.tumblr.com/8d203fc7ee26ba10610d138f4075ef88/tumblr_ne0xem26Rb1txeruoo1_640.gif)
+background-image: url("https://64.media.tumblr.com/8d203fc7ee26ba10610d138f4075ef88/tumblr_ne0xem26Rb1txeruoo1_640.gif");
   background-size: cover;
 }
 
