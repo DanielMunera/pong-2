@@ -10,7 +10,7 @@ class soundFile {
     this.player = new Tone.Player({
       url: "./audio/" + file,
       loop: false,
-      autostart: false
+      autostart: true
     }).toMaster();
   }
   //Play function also with pre-stop and deferred playing
@@ -57,10 +57,10 @@ soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -20; //turn down volume
 
-export var adventureMusic = new soundFile("houter_space.mp3");
-soundArray.push(adventureMusic);
-adventureMusic.player.loop = true;
-adventureMusic.player.volume.value = -16;
+export var Houter Space = new soundFile("houter_space.mp3");
+soundArray.push(HouterSpace);
+HouterSpace.player.loop = true;
+HouterSpace.player.volume.value = -16;
 
 export var villageMusic = new soundFile("Eight_Bit_Village_Loop.mp3");
 soundArray.push(villageMusic);
