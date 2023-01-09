@@ -57,10 +57,10 @@ soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -20; //turn down volume
 
-export var Houter Space = new soundFile("houter_space.mp3");
-soundArray.push(HouterSpace);
-HouterSpace.player.loop = true;
-HouterSpace.player.volume.value = -16;
+export var AdventureMusic = new soundFile("houter_space.mp3");
+soundArray.push(AdventureMusic);
+AdventureMusic.player.loop = true;
+AdventureMusic.player.volume.value = -16;
 
 export var villageMusic = new soundFile("Eight_Bit_Village_Loop.mp3");
 soundArray.push(villageMusic);
