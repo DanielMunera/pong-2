@@ -90,8 +90,10 @@ body {
 
 #left-score {
   left: 10%;
+  background-color: white;
 }
 
 #right-score {
   right: 10%;
+  background-color: white;
 }
