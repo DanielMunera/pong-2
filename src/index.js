@@ -13,7 +13,7 @@ import {
   paddleSound,
   scoreSound,
   ambientSound,
-  adventureMusic,
+  houter_space,
   villageMusic,
   playDeferredSounds
 } from "./audio.js";
