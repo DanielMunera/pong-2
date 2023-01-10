@@ -73,7 +73,7 @@ function gameProcess() {
     rightScoreHigher.turnOff();
     leftScoreHigher.turnOn();
   }
-
+/*
   ambientSound.player.playbackRate = scalerange(
     Math.abs(ball.direction.x),
     0,
@@ -81,6 +81,7 @@ function gameProcess() {
     1,
     3
   );
+  */
   //EVENTS
   // this is a non-persistant event so it only needs to be checked
   if (ballHitWall.state === true) {
