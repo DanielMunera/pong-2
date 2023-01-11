@@ -55,12 +55,12 @@ soundArray.push(scoreSound);
 export var ambientSound = new soundFile("houter_space.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
-ambientSound.player.volume.value = -10; //turn down volume
+ambientSound.player.volume.value = -50; //turn down volume
 
 export var adventureMusic = new soundFile("houter_space.mp3");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
-adventureMusic.player.volume.value = -16;
+adventureMusic.player.volume.value = -50;
 
 export var villageMusic = new soundFile("houter_space.mp3.mp3");
 soundArray.push(villageMusic);
