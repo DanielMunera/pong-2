@@ -43,7 +43,7 @@ export var soundArray = []; //list of sounds loaded
 
 //Here is where all the Sound File Players Start
 
-export var wallSound = new soundFile("Kick_2_Silverlake_GB.aif"); //load sound
+export var wallSound = new soundFile("tambourine-one-shot (1).mp3"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
 
 export var paddleSound = new soundFile("7633__ls__loop1-stripped-down-againrecycled-009.mp3");
