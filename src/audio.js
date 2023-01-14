@@ -43,7 +43,7 @@ export var soundArray = []; //list of sounds loaded
 
 //Here is where all the Sound File Players Start
 
-export var wallSound = new soundFile("tambourine-one-shot (1).mp3"); //load sound
+export var wallSound = new soundFile("418729__lynx-5969__synth-close-hi-hat.mp3"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
 
 export var paddleSound = new soundFile("ocean-snare.mp3");
